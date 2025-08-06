@@ -7,10 +7,16 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "node api/server.js",
+    "start": "node api/server.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
     "lucide-react": "^0.536.0",
+    "mongodb": "^6.18.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
